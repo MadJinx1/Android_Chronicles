@@ -14,14 +14,13 @@ public class Level : MonoBehaviour {
         //TODO: need rooms to say where doors are, need list of available doors, 
         // need rooms to check if they overlap, need to check for matching doors on selection,
         // need rooms to match doors(internal shifting), need enter and exit (tile properties?)
-        //TODO: put code on github!
         rooms = new List<Room>();
-        for (int i=0; i<maxRooms; i++)
-        {
+        //for (int i=0; i<maxRooms; i++)
+        //{
             Room newRoom = Instantiate(roomPrefab) as Room;
             rooms.Add(newRoom);
             newRoom.Generate(RoomLayouts.ROOMLIST[Random.Range(0, RoomLayouts.ROOMLIST.Count)], new Vector2());
-        }
+        //}
         
     }
 
