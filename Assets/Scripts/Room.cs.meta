@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: db5b84e5af3bfa54097d4dc753c18f3c
-timeCreated: 1467160065
+timeCreated: 1468352202
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - roomTilePrefab: {fileID: 11417908, guid: 1883e92793145dd458e7607924dd974d, type: 2}
+  - doorTilePrefab: {fileID: 11493114, guid: b86fe15c95ebe1644a08f888d976b4dd, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
